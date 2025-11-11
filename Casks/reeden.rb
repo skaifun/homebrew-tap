@@ -18,9 +18,9 @@ cask "reeden" do
 
     zap trash: [
       "~/Library/Application Support/app.reeden",
-      "~/Library/Preferences/app.reeden.plist",
       "~/Library/Caches/app.reeden",
       "~/Library/HTTPStorages/app.reeden",
+      "~/Library/Preferences/app.reeden.plist",
     ]
   end
 end

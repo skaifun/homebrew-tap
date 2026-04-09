@@ -1,6 +1,6 @@
 cask "reeden" do
-  version "1.28.1+535"
-  sha256 "255eb8af03ee00121ffc56e69bacb8a5c0b2a2ad9549b4d34e3a41b1b0c68aa1"
+  version "1.29.1+550"
+  sha256 "a5b675222c1b5fc6d0152c4e35df2adf4cb54624baa8910d8e23768a427f46af"
 
   on_macos do
     url "https://download.reeden.app/Reeden/#{version}/Reeden-#{version}-macos.dmg"

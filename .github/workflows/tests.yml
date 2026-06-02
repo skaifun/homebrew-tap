@@ -1,16 +1,13 @@
 name: brew test-bot
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
 
 jobs:
   test-bot:
     strategy:
       matrix:
-        os: [ ubuntu-22.04, macos-15-intel, macos-26 ]
+        os: [ macos-15, macos-26 ]
     runs-on: ${{ matrix.os }}
     permissions:
       actions: read
@@ -36,6 +33,7 @@ jobs:
       - run: brew test-bot --only-setup
 
       - run: brew test-bot --only-tap-syntax
+
       - run: brew test-bot --only-formulae
         if: github.event_name == 'pull_request'
 

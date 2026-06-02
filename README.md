@@ -1,17 +1,13 @@
-# Skaifun Tap
+# skaifun's homebrew tap
 
-## How do I install these formulae?
+## How do I install these formulaes/casks?
 
-`brew install skaifun/tap/<formula>`
+- Just directly use: `brew install skaifun/tap/<formula>`
 
-Or `brew tap skaifun/tap` and then `brew install <formula>`.
+- Or add tap first `brew tap skaifun/tap` and then `brew install <formula | cask>`.
 
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "skaifun/tap"
-brew "<formula>"
-```
+> [!NOTE]  
+> If you are using latest version of homebrew, maybe you should trust the tap using `brew trust skaifun/tap` before install any formula or cask
 
 ## Documentation
 

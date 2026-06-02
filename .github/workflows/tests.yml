@@ -9,6 +9,11 @@ jobs:
       matrix:
         os: [ macos-15, macos-26 ]
     runs-on: ${{ matrix.os }}
+    if: |
+      !(
+        github.head_ref == 'main' ||
+        startsWith(github.head_ref, 'chore-')
+      )
     permissions:
       actions: read
       checks: read

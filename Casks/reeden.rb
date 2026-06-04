@@ -21,6 +21,8 @@ cask "reeden" do
       "~/Library/Caches/app.reeden",
       "~/Library/HTTPStorages/app.reeden",
       "~/Library/Preferences/app.reeden.plist",
+      "~/Library/WebKit/app.reeden",
+      "~/Library/HTTPStorages/app.reeden.binarycookies", 
     ]
   end
 end

@@ -1,6 +1,6 @@
 cask "reeden" do
-  version "1.33.1+648"
-  sha256 "ec66452c3f4a959cdce4c3691a688b3c7a3eff828bbb0b22809cce4cc471654d"
+  version "1.34.1+656"
+  sha256 "19660b47fa7141f8125186e3dac6324e46df33087c330426c87598c6e3c4c25f"
 
   on_macos do
     url "https://download.reeden.app/Reeden/#{version}/Reeden-#{version}-macos.dmg"
@@ -20,9 +20,9 @@ cask "reeden" do
       "~/Library/Application Support/app.reeden",
       "~/Library/Caches/app.reeden",
       "~/Library/HTTPStorages/app.reeden",
+      "~/Library/HTTPStorages/app.reeden.binarycookies",
       "~/Library/Preferences/app.reeden.plist",
       "~/Library/WebKit/app.reeden",
-      "~/Library/HTTPStorages/app.reeden.binarycookies", 
     ]
   end
 end
